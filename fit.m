@@ -60,7 +60,7 @@ end
 plot(MnO2,Time,'r',MnO2,result,'b--')
 title('BP神经网络污染处理数据拟合')
 legend('期望曲线','输出曲线')
-xlabel('MnO2/g')
+xlabel('MnO_2/g')
 ylabel('催化时间/h')
 %预测
 test = 4.6:0.2:5.6;
